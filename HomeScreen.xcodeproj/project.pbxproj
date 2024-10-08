@@ -16,6 +16,8 @@
 		EF9944A52CA2605900D76C60 /* ProfilePageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9944A42CA2605900D76C60 /* ProfilePageApp.swift */; };
 		EF9944A72CA2606300D76C60 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9944A62CA2606300D76C60 /* SignUpPage.swift */; };
 		EF9944A92CA2610F00D76C60 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9944A82CA2610F00D76C60 /* HomeView.swift */; };
+		EFD864272CB5083400FABAF2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD864262CB5083400FABAF2 /* Model.swift */; };
+		EFD864292CB5089A00FABAF2 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD864282CB5089A00FABAF2 /* WeatherAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		EF9944A42CA2605900D76C60 /* ProfilePageApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePageApp.swift; sourceTree = "<group>"; };
 		EF9944A62CA2606300D76C60 /* SignUpPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
 		EF9944A82CA2610F00D76C60 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EFD864262CB5083400FABAF2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EFD864282CB5089A00FABAF2 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				EF99447C2CA25EF800D76C60 /* ContentView.swift */,
+				EFD864262CB5083400FABAF2 /* Model.swift */,
+				EFD864282CB5089A00FABAF2 /* WeatherAPI.swift */,
 				EF9944A62CA2606300D76C60 /* SignUpPage.swift */,
 				EF9944A42CA2605900D76C60 /* ProfilePageApp.swift */,
 				EF9944A82CA2610F00D76C60 /* HomeView.swift */,
@@ -263,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD864272CB5083400FABAF2 /* Model.swift in Sources */,
 				EF99447D2CA25EF800D76C60 /* ContentView.swift in Sources */,
 				EF9944A72CA2606300D76C60 /* SignUpPage.swift in Sources */,
+				EFD864292CB5089A00FABAF2 /* WeatherAPI.swift in Sources */,
 				EF9944A92CA2610F00D76C60 /* HomeView.swift in Sources */,
 				EF9944A52CA2605900D76C60 /* ProfilePageApp.swift in Sources */,
 			);
